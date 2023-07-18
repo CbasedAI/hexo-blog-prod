@@ -344,7 +344,7 @@ var heo = {
             for (var i = 0; i < o.length; i++) {
                 var l = document.querySelector(o[i]);
                 if (null != l) {
-                    l.value = "visitor@zhheo.com",
+                    l.value = "visitor@wakehuang.com",
                     l.dispatchEvent(new Event("input")),
                     l.dispatchEvent(new Event("change"));
                     break
