@@ -3548,12 +3548,14 @@ li, ul {
   vertical-align: bottom;
 }
 
-@media screen and (max-width: 768px) {
-  .relatedPosts>.relatedPosts-list>div {
-    margin: 2px;
-    width: calc(50% - 4px);
-    height: 150px;
-  }
+/* GB让改的 */
+.relatedPosts>.relatedPosts-list>div {
+  margin: 2px;
+  width: calc(50% - 4px);
+  height: 150px;
+}
+.relatediv {
+  border-radius: 12px;
 }
 
 @media screen and (max-width: 600px) {
@@ -9937,7 +9939,7 @@ div#author-info__sayhi:hover {
 
 
 #aside-content>.card-widget.card-info {
-  background: var(--heo-card-bg);
+  /* background: var(--heo-card-bg); */
   box-shadow: var(--heo-shadow-black);
   position: relative;
 }
@@ -11674,7 +11676,7 @@ figure {
 }
 
 #article-container .code-expand-btn:hover {
-  background: var(--heo-main);
+  background: var(--heo-theme);
 }
 
 #article-container .code-expand-btn:hover i {
@@ -15595,7 +15597,7 @@ span.hexo-douban-pagenum {
 }
 
 [data-theme=dark] .author-content-item.map {
-  background: url(https://s2.loli.net/2023/07/01/2YQbdqzVFWphjnc.webp) no-repeat center;
+  background: url(https://bu.dusays.com/2023/03/12/640dc8713d98a.webp) no-repeat center;
   background-size: 100%;
 }
 
@@ -17318,6 +17320,12 @@ svg.icon {
     fill: currentColor;
     overflow: hidden;
     font-size: 20px;
+}
+
+
+/* Fuck Bug */
+.post-copyright__type {
+  display: flex;
 }
 .bilibili_box {
   display: flex;
